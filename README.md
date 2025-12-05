@@ -120,9 +120,11 @@ You should see:
 
 ### Base URL
 ```
+https://global-trend-1.onrender.com    // Deployed API best to use because redis setup with password is done
 http://localhost:4000
 
 ##0. TO Get 2 product it means limited products
+https://global-trend-1.onrender.com/products?limit=2
 http://localhost:5000/products?limit=2
 ```
 
@@ -141,16 +143,19 @@ GET /products
 
 ### 2. Get Product by ID
 ```http
+https://global-trend-1.onrender.com/products/:id
 GET /products/:id
 ```
 
 **Example:**
 ```bash
+https://global-trend-1.onrender.com/products/507f1f77bcf86cd799439011
 curl http://localhost:4000/products/507f1f77bcf86cd799439011
 ```
 
 ### 3. Filter by Category
 ```http
+https://global-trend-1.onrender.com/products?category=electronics
 GET /products?category=electronics
 ```
 
@@ -162,19 +167,19 @@ GET /products?category=electronics
 
 ### 4. Search Products
 ```http
-GET /products?search=iphone
+GET https://global-trend-1.onrender.com/products?search=iphone
 ```
 
 Searches in product title and description.
 
 ### 5. Price Range Filter
 ```http
-GET /products?minPrice=50&maxPrice=500
+GET https://global-trend-1.onrender.com/products?minPrice=50&maxPrice=500
 ```
 
 ### 6. Combined Filters
 ```http
-GET /products?category=electronics&minPrice=100&maxPrice=1000&search=phone
+GET https://global-trend-1.onrender.com/products?category=electronics&minPrice=100&maxPrice=1000&search=phone
 ```
 
 ---
@@ -185,6 +190,7 @@ GET /products?category=electronics&minPrice=100&maxPrice=1000&search=phone
 
 ```bash
 # Get all products
+REPLACE BASE URL WITH PRODUCTION API : https://global-trend-1.onrender.com
 curl http://localhost:4000/products
 
 # Get single product (replace ID)
