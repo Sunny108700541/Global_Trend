@@ -50,7 +50,7 @@ ecommerce-api/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourname/ecommerce-api.git
+git clone https://github.com/Sunny108700541/Global_Trend.git
 cd ecommerce-api
 ```
 
@@ -59,18 +59,7 @@ cd ecommerce-api
 npm install
 ```
 
-### 3. Install MongoDB
-You need MongoDB installed locally or use MongoDB Atlas (cloud).
 
-**Local Installation:**
-- **Windows**: Download from [mongodb.com](https://www.mongodb.com/try/download/community)
-- **Mac**: `brew install mongodb-community`
-- **Linux**: Follow [MongoDB installation guide](https://docs.mongodb.com/manual/installation/)
-
-**Or use MongoDB Atlas** (cloud):
-1. Create free account at [mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a cluster and get connection string
-3. Update `MONGODB_URI` in `.env` with your Atlas connection string
 
 ### 4. Configure Environment Variables
 
@@ -304,16 +293,6 @@ ISC
 
 ## 👤 Author
 
-Your Name - Global Trend Internship Assignment
+Sunny - Global Trend Internship Assignment
 
 ---
-
-## ✨ Future Enhancements
-
-- [ ] Add authentication (JWT)
-- [ ] Implement CRUD operations (POST, PUT, DELETE)
-- [ ] Add pagination
-- [ ] Image upload functionality
-- [ ] Order management
-- [ ] User reviews and ratings
-- [ ] Advanced analytics
