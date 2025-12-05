@@ -132,6 +132,9 @@ You should see:
 ### Base URL
 ```
 http://localhost:4000
+
+##0. TO Get 2 product it means limited products
+http://localhost:5000/products?limit=2
 ```
 
 ### 1. Get All Products
