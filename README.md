@@ -293,7 +293,11 @@ Error: listen EADDRINUSE: address already in use :::4000
 
 ## 📄 License
 
-ISC
+ISc
+
+##POSTMAN TESTING
+<img width="1399" height="926" alt="image" src="https://github.com/user-attachments/assets/dadfd155-585b-40b1-853e-e98bf0491056" />
+
 
 ---
 
