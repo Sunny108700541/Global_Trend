@@ -299,6 +299,10 @@ ISc
 <img width="1399" height="926" alt="image" src="https://github.com/user-attachments/assets/dadfd155-585b-40b1-853e-e98bf0491056" />
 
 
+<img width="1438" height="938" alt="image" src="https://github.com/user-attachments/assets/f3638991-cf53-45ab-8df7-af56f18ac37b" />
+
+
+
 ---
 
 ## 👤 Author
